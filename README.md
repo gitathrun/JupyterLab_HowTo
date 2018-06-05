@@ -1,5 +1,5 @@
 # JupyterLab_HowTo
-## Author: Teng Fu
+### Author: Teng Fu
 
 This is a repository for JupyterLab related knowledge.
 The aim of this repository includes:
@@ -26,6 +26,31 @@ Jupyter developers feels that pain and bring in the JupyterLab, a tool that is n
 
 So, let's walk through the Jupyter Lab to see what does it offers.
 
-Pre
+## Prerequisites
+- Local PC or remote virtual machine.
+- Jupyter notebook version higher than 4.3.
+```python
+jupyter notebook --version
+```
+an update for **notebook** package is recommonded.
+- check the jupyter realted package is installed such as:
+2. jupyter                  
+2. jupyter_client           
+2. jupyter_console          
+2. jupyter_core             
+2. notebook                 
 
-Installation
+## Installation
+Check [JupyterLab installation](http://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html), consist all the methods for installation. For me, I use 
+```python
+pip install jupyterlab
+```
+for Windows, and use
+```python
+conda install -c conda-forge jupyterlab
+```
+for remote Linux virtual machine.
+
+After installation, the following package shall be in your virtual env:
+2. jupyterlab                0.32.1                   py35_0    conda-forge
+2. jupyterlab_launcher       0.10.5                   py35_0    conda-forge
