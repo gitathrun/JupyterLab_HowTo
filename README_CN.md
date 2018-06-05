@@ -1,11 +1,10 @@
-# JupyterLab_HowTo
-## Author: Teng Fu
+# JupyterLab_HowTo 关于JupyerLab的简介
+## 作者: 付腾
 
 This is a repository for JupyterLab related knowledge.
 The aim of this repository includes:
 - Introducing JupyterLab
 - Tricks for JupyterLab usage
-For Chinese version, please check [关于JupyerLab的简介](README_CN.md)
 
 JupyterLab is a new generation of Jupyter toolkit, we can consider it as a integration and advancement of current Jupyter tools which includes:
 - Jupyter Notebook
@@ -24,8 +23,4 @@ That is something I am not quick happy about, but it is also a painful story to 
 
 Jupyter developers feels that pain and bring in the JupyterLab, a tool that is not an IDE but has most IDE features, also, it is not a typical Notebook, but notebook is a part of it.
 
-So, let's walk through the Jupyter Lab to see what does it offers.
-
-Pre
-
-Installation
+So, let's walk through the Jupyter Lab to see what does it offers
