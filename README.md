@@ -1,11 +1,12 @@
 # JupyterLab_HowTo
 ### Author: Teng Fu
+For Chinese version, please check [关于JupyerLab的简介](README_CN.md)
 
 This is a repository for JupyterLab related knowledge.
 The aim of this repository includes:
 - Introducing JupyterLab
 - Tricks for JupyterLab usage
-For Chinese version, please check [关于JupyerLab的简介](README_CN.md)
+
 
 JupyterLab is a new generation of Jupyter toolkit, we can consider it as a integration and advancement of current Jupyter tools which includes:
 - Jupyter Notebook
@@ -54,3 +55,13 @@ for remote Linux virtual machine.
 After installation, the following package shall be in your virtual env:
 2. jupyterlab                0.32.1                   py35_0    conda-forge
 2. jupyterlab_launcher       0.10.5                   py35_0    conda-forge
+
+## How to Use
+In CLI, type
+```python
+jupyter lab
+```
+the following IDE interface shall appear on your local web browser, just like notebook
+![The interface of jupyter lab in browser](/images/overall.png)
+
+## What is different?
