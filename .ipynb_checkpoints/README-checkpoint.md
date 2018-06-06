@@ -56,12 +56,3 @@ After installation, the following package shall be in your virtual env:
 2. jupyterlab                0.32.1                   py35_0    conda-forge
 2. jupyterlab_launcher       0.10.5                   py35_0    conda-forge
 
-## How to Use
-In CLI, type
-```python
-jupyter lab
-```
-the following IDE interface shall appear on your local web browser, just like notebook
-![The interface of jupyter lab in browser](/images/overall.PNG)
-
-## What is different?
